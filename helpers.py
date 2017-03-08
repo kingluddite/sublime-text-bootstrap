@@ -42,6 +42,23 @@ class Helpers():
 					else:
 						shutil.copy2(s, d)
 
+	# Ensure unique elements in python array
+	@staticmethod
+	def uniquify(seq, idfun=None):
+	   if idfun is None:
+	       def idfun(x): return x
+	   seen = {}
+	   result = []
+	   for item in seq:
+	       marker = idfun(item)
+	       # in old Python versions:
+	       # if seen.has_key(marker)
+	       # but in new ones:
+	       if marker in seen: continue
+	       seen[marker] = 1
+	       result.append(item)
+	   return result
+
 	# Enable path autocomplete relative to /
 	@staticmethod
 	def complete(text, state):

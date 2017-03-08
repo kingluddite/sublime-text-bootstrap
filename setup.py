@@ -84,12 +84,14 @@ def configure_projects(config_path):
 			with codecs.open(sublime_session_path, 'rU','utf-8') as session_file:
 				sublime_session = copy.deepcopy(json.load(session_file))
 				sublime_session["workspaces"]["recent_workspaces"].append(sublime_workspace_path)
+				sublime_session["workspaces"]["recent_workspaces"] = Helpers.uniquify(sublime_session["workspaces"]["recent_workspaces"])
 				with codecs.open(sublime_session_path, 'w', encoding="utf-8") as session:
 					session.write(json.dumps(sublime_session, ensure_ascii=False))
 		else:
 			# We need to create the file and fill it up at least for the first time
 			sublime_session = {"workspaces" : { "recent_workspaces": [] }}
 			sublime_session["workspaces"]["recent_workspaces"].append(sublime_workspace_path)
+			sublime_session["workspaces"]["recent_workspaces"] = Helpers.uniquify(sublime_session["workspaces"]["recent_workspaces"])
 			with open(sublime_session_path, 'w') as session:
 				session.write(json.dumps(sublime_session, ensure_ascii=False))
 
