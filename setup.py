@@ -17,8 +17,8 @@ config_path = ''
 
 # the application main entry point
 def main():
-	print('Configuring SublimeText editor .....');
-	print('Checking your operating system .....');
+	print('Configuring SublimeText editor .....')
+	print('Checking your operating system .....')
 
 	# OSX Setup:
 	# - check and install via `brew cask`
