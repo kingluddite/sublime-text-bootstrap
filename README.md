@@ -25,6 +25,8 @@ To batch install packages (plugins, themes, etc.), a `Package Control.sublime-se
 
 [Package Control](https://packagecontrol.io) is a package manager that makes it exceedingly simple to find, install and keep packages up-to-date. It is driven by the Command Palette. To open the palette, press ctrl+shift+p (Win, Linux) or cmd+shift+p (OS X). All Package Control commands begin with Package Control:, so start by typing Package.
 
+# What is this ? tldr;
+
 In short, this script aims at automatic installation + configuration of Sublime Text in OSX, Linux by:
 
  1. Installs `Sublime Text 3` with `apt-get` or `brew`
