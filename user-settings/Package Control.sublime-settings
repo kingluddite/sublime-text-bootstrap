@@ -3,8 +3,7 @@
 	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
-		"FindResultsApplyChanges",
-		"WordCount"
+		"0_package_control_loader"
 	],
 	"installed_packages":
 	[
@@ -18,23 +17,21 @@
 		"ApplySyntax",
 		"AutoFileName",
 		"Better CoffeeScript",
+		"Better Completion",
 		"BracketHighlighter",
 		"Case Conversion",
 		"CodeFormatter",
-		"ColorPicker",
-		"Comment-Snippets",
+		"Color Highlighter",
 		"DashDoc",
 		"DocBlockr",
 		"EditorConfig",
-		"Emmet",
-		"FileBrowser",
 		"FileDiffs",
 		"Filter Lines",
 		"Fix Mac Path",
 		"GenerateUUID",
 		"Git",
 		"Handlebars",
-		"HTMLBeautify",
+		"HTML-CSS-JS Prettify",
 		"HyperClick",
 		"Icon Fonts",
 		"Indent XML",
@@ -42,14 +39,10 @@
 		"LaTeXTools",
 		"LogView",
 		"Markdown Preview",
-		"Material Color Scheme",
 		"Material Theme",
 		"Minify",
 		"MultiEditUtils",
 		"Package Control",
-		"PackageResourceViewer",
-		"Pretty JSON",
-		"SCSS",
 		"SideBarEnhancements",
 		"SPARQL",
 		"SublimeLinter",
@@ -58,9 +51,7 @@
 		"Terminal",
 		"Text Pastry",
 		"TrailingSpaces",
-		"TypeScript",
 		"TypescriptCompletion",
-		"WakaTime",
-		"Whitespace"
+		"WakaTime"
 	]
 }

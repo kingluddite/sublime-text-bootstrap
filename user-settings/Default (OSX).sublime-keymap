@@ -1,0 +1,4 @@
+[
+	{ "keys": ["option+a"], "command": "alignment" },
+	{ "keys": ["super+h"], "command": "show_panel", "args": {"panel": "find_in_files"} }
+]
