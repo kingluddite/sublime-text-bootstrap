@@ -3,20 +3,19 @@
 	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
-		"0_package_control_loader"
 	],
 	"installed_packages":
 	[
 		"A File Icon",
+		"MarkdownEditing",
+		"jsprettier",
 		"AdvancedNewFile",
 		"Alignment",
 		"AlignTab",
+		"jsprettier",
 		"All Autocomplete",
-		"ApacheConf.tmLanguage",
-		"API Blueprint",
 		"ApplySyntax",
 		"AutoFileName",
-		"Better CoffeeScript",
 		"Better Completion",
 		"BracketHighlighter",
 		"Case Conversion",
@@ -25,24 +24,26 @@
 		"DashDoc",
 		"DocBlockr",
 		"EditorConfig",
+		"Emmet",
 		"FileDiffs",
 		"Filter Lines",
 		"Fix Mac Path",
 		"GenerateUUID",
 		"Git",
+		"Seti_UI",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"HyperClick",
 		"Icon Fonts",
-		"Indent XML",
-		"Jade",
 		"LaTeXTools",
 		"LogView",
 		"Markdown Preview",
 		"Material Theme",
 		"Minify",
 		"MultiEditUtils",
+		"OpenInBrowser",
 		"Package Control",
+		"Predawn",
 		"SideBarEnhancements",
 		"SPARQL",
 		"SublimeLinter",
@@ -50,8 +51,6 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Text Pastry",
-		"TrailingSpaces",
-		"TypescriptCompletion",
-		"WakaTime"
+		"TrailingSpaces"
 	]
 }
