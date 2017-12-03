@@ -2,6 +2,11 @@
 
 # SublimeText Bootstrap
 
+## Requirements
+* Node
+
+This is a bit glitchy of an install but it does the job. It's glitchy because you get a lot Sublime Text Pop up windows but you just close them and Sublime Packages install.
+
 I teach a class and wanted a fast way to install Sublime Text with all my preferred settings.
 
 I forked this [agnadassaf's repo](https://github.com/ahmadassaf/sublime-text-bootstrap) that was a fork of [evanplaice's repo](https://github.com/evanplaice/sublime-text-seed)
@@ -21,9 +26,6 @@ $ ./setup.py
 **note** Don't type `$` it is just there to let you know that this is something you type in the terminal.
 
 5. Make any adjustments to the packages you want to use, the key bindings you are used to and the personal sublime text settings you use.
-
-## Install node
-`$ brew install node` (this program installs homebrew for you)
 
 ## `sublime` symlink
 * This program installs `sublime` symlink so you can open sublime from the Command Line by just typing `sublime`
@@ -51,9 +53,11 @@ To batch install packages (plugins, themes, etc.), a `Package Control.sublime-se
 #### Add all your packages
 Copy the `Package\ Control.sublime-settings` in `Packages/User/` (after you made the changes that you want)
 
+**note** Make sure you are inside the `user-settings` directory in your cloned repo on your machine
+
 `$ cp -R Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/`
 
-**important** Shutdown Sublime Text and reopen it. Package Control will read this file and automatically install all your packages inside this file. Pretty cool, huh?
+**important** Shutdown Sublime Text and reopen it. Package Control will read this file and automatically install all your packages inside this file. 
 
 **note** You may have to manually install jsprettier as it was not installing automatically.
 **note** You will get a loop error but you can disregard that as it will still install the packages
@@ -67,6 +71,8 @@ Copy the `Default (OSX).sublime-keymap` in `Packages/User/` (after you made the 
 
 #### Add your User Settings
 Copy the `Preferences.sublime-settings` in `Packages/User/` (after you made the changes that you want)
+
+**note** Make sure you are inside the `user-settings` directory in your cloned repo on your machine
 
 `$ cp -R Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/`
 
